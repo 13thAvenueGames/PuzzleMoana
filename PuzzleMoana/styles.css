@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#puzzleContainer {
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px solid #333;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.puzzlePiece {
+  width: 200px;
+  height: 133px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#statusMessage {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+#timer {
+  margin-top: 10px;
+  font-size: 20px;
+}
